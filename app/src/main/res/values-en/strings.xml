@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="action_settings">settings</string>
+    <string name="first_fragment_label">first_frgment</string>
+    <string name="second_fragment_label">second_fragment</string>
+    <string name="next">siguiente</string>
+    <string name="previous">anterior</string>
+    <string name="hello_blank_fragment">hola_blanco</string>
+    <string name="adivina_el_numero">Guess the number</string>
+    <string name="jugar">Play</string>
+    <string name="resultado">Result</string>
+    <string name="nombre">Name</string>
+    <string name="n_intentos">N. of attemps</string>
+    <string name="a_jugar">¡To play!</string>
+    <string name="has_ganado">¡YOU WIN!</string>
+    <string name="has_perdido">¡YOU LOSE!</string>
+    <string name="numero_de_intentos">Number of attemps</string>
+    <string name="numero_de_nintentos">N. of attemps</string>
+    <string name="que_numero">¿Number?</string>
+    <string name="numero">Number</string>
+    <string name="nombre_">Name:</string>
+    <string name="nuevo_intento">New try</string>
+    <string name="el_n_mero_a_adivinar_es_menor">The number to guess is lower</string>
+    <string name="el_n_mero_a_adivinar_es_mayor">The number to guess is greater</string>
+</resources>

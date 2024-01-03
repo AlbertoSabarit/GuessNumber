@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/configFragment">
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.example.guessnumber.ui.ConfigFragment"
+        android:label="@string/adivina_el_numero"
+        tools:layout="@layout/fragment_config" >
+        <action
+            android:id="@+id/action_configFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.guessnumber.ui.PlayFragment"
+        android:label="@string/jugar"
+        tools:layout="@layout/fragment_play" >
+        <action
+            android:id="@+id/action_playFragment_to_endPlayFragment"
+            app:destination="@id/endPlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endPlayFragment"
+        android:name="com.example.guessnumber.ui.EndPlayFragment"
+        android:label="@string/resultado"
+        tools:layout="@layout/fragment_end_play" />
+</navigation>
