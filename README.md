@@ -12,8 +12,7 @@ La app ✨Guess Number✨ es un pequeño juego en el que el usuario debe adivina
 
 - App funcional y jugable.
 
-
-
+<br/><br/>
 
 Inicio del juego: 
 <p align="center">
