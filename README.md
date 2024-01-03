@@ -13,6 +13,8 @@ La app ✨Guess Number✨ es un pequeño juego en el que el usuario debe adivina
 - App funcional y jugable.
 
 
+
+
 Inicio del juego: 
 <p align="center">
 <img src="https://github.com/AlbertoSabarit/GuessNumber/assets/83402306/a8137033-dfb1-4fab-b6c0-ddcaa8524978" height="400" width="220" >
