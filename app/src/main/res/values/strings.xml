@@ -18,6 +18,7 @@
     <string name="numero_de_nintentos">Número de \nintentos:</string>
     <string name="que_numero">¿Número?:</string>
     <string name="numero">Número</string>
+    <string name="numero2">Número: </string>
     <string name="nombre_">Nombre:</string>
     <string name="nuevo_intento">Nuevo intento</string>
     <string name="el_n_mero_a_adivinar_es_menor">El número a adivinar es menor</string>

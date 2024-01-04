@@ -15,7 +15,7 @@
     <string name="a_jugar">¡To play!</string>
     <string name="has_ganado">¡YOU WIN!</string>
     <string name="has_perdido">¡YOU LOSE!</string>
-    <string name="numero_de_intentos">Number of attemps</string>
+    <string name="numero_de_intentos">Number of attemps:</string>
     <string name="numero_de_nintentos">N. of attemps</string>
     <string name="que_numero">¿Number?</string>
     <string name="numero">Number</string>
@@ -23,4 +23,5 @@
     <string name="nuevo_intento">New try</string>
     <string name="el_n_mero_a_adivinar_es_menor">The number to guess is lower</string>
     <string name="el_n_mero_a_adivinar_es_mayor">The number to guess is greater</string>
+    <string name="numero2">"Number: "</string>
 </resources>

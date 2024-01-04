@@ -41,6 +41,7 @@ class EndPlayFragment : Fragment() {
         with(binding) {
             tvNombre.text = juego!!.nombre
             tvNIntentos.text = juego!!.contador.toString()
+            tvNumeroFinal.text = juego!!.numeroAleatorio.toString()
             if (juego!!.acertado) {
                 tvFraseGanadora.visibility = View.VISIBLE
                 tvFrasePerdedora.visibility = View.GONE

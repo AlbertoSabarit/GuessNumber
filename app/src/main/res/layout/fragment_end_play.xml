@@ -60,6 +60,7 @@
             android:id="@+id/tvFraseGanadora"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/has_ganado"
             android:textColor="@color/green"
             android:textSize="@dimen/_30sp"
@@ -74,6 +75,7 @@
             android:id="@+id/tvFrasePerdedora"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/has_perdido"
             android:textColor="@color/red"
             android:textSize="@dimen/_30sp"
@@ -89,6 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_64dp"
+            android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/numero_de_intentos"
             android:textSize="@dimen/_18sp"
             android:textStyle="bold"
@@ -107,6 +110,30 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/txtNumeroObjetivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32dp"
+            android:text="@string/numero2"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tvNumeroFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_32dp"
+            android:text=""
+            android:textSize="@dimen/_18sp"
+            android:textColor="@color/purple"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtNumeroObjetivo"
+            app:layout_constraintStart_toEndOf="@+id/txtNumeroObjetivo"
+            app:layout_constraintTop_toTopOf="@+id/txtNumeroObjetivo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
